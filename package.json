@@ -1,0 +1,37 @@
+{
+  "name": "@lessondesk/theme",
+  "description": "UI Theme for Lesson Desk",
+  "main": "dist/theme.js",
+  "source": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --fix src/*.js",
+    "build": "microbundle -o dist/ --sourcemap false --compress false --jsx React.createElement --format cjs",
+    "dev": "microbundle watch -o dist/ --sourcemap false --compress false --jsx React.createElement --format cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "lessondesk",
+    "theme"
+  ],
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "microbundle": "^0.11.0"
+  },
+  "devDependencies": {
+    "@lessondesk/eslint-config": "^1.4.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  }
+}

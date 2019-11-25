@@ -1,0 +1,7 @@
+{
+  "extends": "@lessondesk",
+  "env": {
+    "browser": true,
+    "jest": true
+  }
+}
