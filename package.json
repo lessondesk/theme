@@ -2,6 +2,7 @@
   "name": "@lessondesk/theme",
   "description": "UI Theme for Lesson Desk",
   "main": "dist/theme.js",
+  "version": "1.0.0",
   "source": "src/index.js",
   "scripts": {
     "test": "jest",
