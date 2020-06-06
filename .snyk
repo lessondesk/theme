@@ -514,3 +514,5 @@ patch:
         patched: '2020-06-06T18:32:30.660Z'
     - babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2020-06-06T18:32:30.660Z'
+    - microbundle > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-06-06T18:38:44.061Z'
