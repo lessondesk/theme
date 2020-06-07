@@ -22,8 +22,8 @@
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "babel-jest": "^24.9.0",
     "microbundle": "^0.12.0",
     "snyk": "^1.336.0"
